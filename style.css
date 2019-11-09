@@ -1,0 +1,37 @@
+@charset "UTF-8";
+​
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+​
+div{
+    background-color: #EEEEEE;
+    margin-bottom: 52px;
+}
+section{
+    background-color: #EEEEEE;
+    width: 920px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 30px 78px 30px 78px;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+h2{
+    font-size: 32px;
+    margin-bottom: 13px;
+}
+p span{
+    font-size: 32px;
+}
+p:nth-of-type(2) span{
+    color: #FF0000;
+}
+figure{
+    margin-bottom: 20px;
+}
+figure:nth-of-type(2) img{
+    width: 50%;
+}
